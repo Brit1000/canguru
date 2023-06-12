@@ -4,14 +4,14 @@ var END = 0;
 var WIN = 2;
 var gameState = PLAY;
 
-var trex, trex_running, trex_collided;
+var kangaroo_running, kangaroo_collided;
 var jungle, invisiblejungle;
 
-var obstaclesGroup, obstacle1;
+var shrub1, shrub2, shrub3, obstacle1;
 
 var score = 0;
 
-var gameOver, restart;
+var gameOverImg, restartImg;
 
 function preload() {
   kangaroo_running = loadAnimation("assets/kangaroo1.png", "assets/kangaroo2.png", "assets/kangaroo3.png");
